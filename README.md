@@ -1,5 +1,6 @@
 # Chatbot-rasa
 Deploy your own chatbot with RASA
+
 We used to heard about the question and answering, when we ask something we have a 
 answer. It like we play a quiz game. But it just the answer from the question. How about the 
 question but related to each other?. Imagine you go to the university to have the quiz test but 
@@ -10,6 +11,7 @@ have “context”.
 In this introduction, I will introduce you a friend that can have a conversation, to answer and 
 advised you everything you need. Even you are not the developer and not good in Machine 
 Learning, deep learning..etc.. You still can make your own chatbot by using Rasa
+
 ![DEMO](asset/structure.png)
 ## Introduction
 Rasa is an open source machine learning framework for building AI assistants and chatbots. 
