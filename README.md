@@ -10,7 +10,7 @@ have “context”.
 In this introduction, I will introduce you a friend that can have a conversation, to answer and 
 advised you everything you need. Even you are not the developer and not good in Machine 
 Learning, deep learning..etc.. You still can make your own chatbot by using Rasa
-
+![DEMO](asset/structure.png)
 ## Introduction
 Rasa is an open source machine learning framework for building AI assistants and chatbots. 
 Mostly you don’t need any programming language experience to work in Rasa
