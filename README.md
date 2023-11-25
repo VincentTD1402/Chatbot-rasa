@@ -45,13 +45,19 @@ to be extremely interactive learning from the chats.
   config.yml, data/nlu.md, domain.yml, data/stories.md. This is all the file 
   you need to care about it.
 - Step 2 : Create our datachatbot through file **data/nlu.md**
+
   ![DEMO](asset/data.png)
+  
 - Step 3 : Create the template,action for output through file **domain.yml**
+
   ![DEMO](asset/configdomain.png)
+  
 - Step 4: Config the training through file config.yml
   ![DEMO](asset/config.png)
 - Step 5: The import more for create a history for chatbot through file **data/stories.md**
+
   ![DEMO](asset/history.png)
+  
 - Step 6 : Training your chat bot through command
   ```bash
   rasa train
@@ -72,7 +78,9 @@ You can use the ngrok to connect the api and deploy it in to any framework you w
 especially facebook.
 ## Evaluation
 The evaluation on my dataset describe with this
+
 ![DEMO](asset/evaluation.png)
+
 ## Result
 This is the result when i testing my chatbot through facebook
 ![DEMO](asset/demo.png)
