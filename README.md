@@ -17,14 +17,14 @@ Learning, deep learning..etc.. You still can make your own chatbot by using Rasa
 Rasa is an open source machine learning framework for building AI assistants and chatbots. 
 Mostly you don’t need any programming language experience to work in Rasa
 Advantages of Rasa:
-- 1. Integration- being open-source and with the ease of building chatbots, Rasa can be 
+- Integration- being open-source and with the ease of building chatbots, Rasa can be 
 integrated into systems easily and automate stuff.
-- 2. Customization — who said we cannot add our touch? Rasa is flexible and can be 
+- Customization — who said we cannot add our touch? Rasa is flexible and can be 
 modified to fit needs.
-- 3. Interactive learning- Rasa is trained to learn on its own. It doesn’t matter if 
+- Interactive learning- Rasa is trained to learn on its own. It doesn’t matter if 
 businesses don’t’ know how to train the AI, it learns on its own as you talk to it. Talk 
 about AI being so cool!
-- 4. Not your regular static machine- Rasa is not a machine but a conversational AI bot 
+- Not your regular static machine- Rasa is not a machine but a conversational AI bot 
 which is the replica of the human interaction mechanism. You could expect the bot 
 to be extremely interactive learning from the chats.
 
