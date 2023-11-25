@@ -1,0 +1,132 @@
+version: "3.1"
+
+stories:
+
+- story: Greeting
+  steps:
+  - intent: Greeting
+  - action: utter_Greeting
+  - intent: ask_greeting
+  - action: utter_ask_greeting
+  - intent: ask_health
+  - action: utter_ask_health
+  - intent: reply_health
+  - action: utter_reply_health
+
+
+- story: ask_ques
+  steps:
+  - intent: Greeting
+  - action: utter_Greeting
+  - intent: ask_ques
+  - action: utter_ask_ques
+
+- story: web_application_development
+  steps:
+  - intent: Greeting
+  - action: utter_Greeting
+  - intent: web_application_development
+  - action: utter_web_application_development
+  - intent: ask_web_dev
+  - action: utter_ask_web_dev
+  - action: utter_ask_web_exp
+  - intent: ask_detail_web
+  - action: utter_ask_detail_web
+  - intent: buy_web_dev
+  - action: utter_buy_web_dev
+  - intent: choosing_web
+  - action: utter_choosing_web
+  - intent: Goodbye
+  - action: utter_Goodbye
+
+- story: mobile_application_development
+  steps:
+  - intent: Greeting
+  - action: utter_Greeting
+  - intent: mobile_application_development
+  - action: utter_mobile_application_development
+  - action: utter_ask_mobile_dev
+  - intent: ask_mobile_exp
+  - action: utter_ask_mobile_exp
+  - intent: ask_os_dev
+  - action: utter_ask_os_dev
+  - intent: ask_detail_mobile
+  - action: utter_ask_detail_mobile
+  - intent: ask_long_mobile
+  - action: utter_ask_long_mobile
+  - intent: Goodbye
+  - action: utter_Goodbye
+
+- story: ask_restaurant
+  steps:
+  - intent: ask_restaurant
+  - action: utter_ask_restaurant
+  - intent: ask_with_who
+  - action: utter_ask_with_who
+
+- story: Product_Development
+  steps:
+  - intent: Greeting
+  - action: utter_Greeting
+  - intent: Product_Development
+  - action: utter_Product_Development
+  - intent: ask_prod_1
+  - action: utter_ask_prod_1
+  - intent: ask_prod
+  - action: utter_ask_prod
+  - intent: Goodbye
+  - action: utter_Goodbye
+
+- story: Artificial_Intelligence
+  steps:
+  - intent: Greeting
+  - action: utter_Greeting
+  - intent: Artificial_Intelligence
+  - action: utter_Artificial_Intelligence
+  - intent: ask_AI
+  - action: utter_ask_AI
+  - intent: ask_ques_AI
+  - action: utter_ask_ques_AI
+  - intent: ask_rela_AI
+  - action: utter_ask_rela_AI
+  - intent: AI_app
+  - action: utter_AI_app
+  - intent: Goodbye
+  - action: utter_Goodbye
+
+- story: Coffee
+  steps:
+  - intent: Coffee
+  - action: utter_Coffee
+  - intent: ask_coffe
+  - action: utter_ask_coffe
+
+- story: The_Internet_of_Things
+  steps:
+  - intent: Greeting
+  - action: utter_Greeting
+  - intent: The_Internet_of_Things
+  - action: utter_The_Internet_of_Things
+  - intent: ask_IoT
+  - action: utter_ask_IoT
+  - intent: ask_IoT_2
+  - action: utter_ask_IoT_2
+  - intent: Goodbye
+  - action: utter_Goodbye
+
+- story: Football
+  steps:
+  - intent: Football
+  - action: utter_Football
+
+- story: Traffic
+  steps:
+  - intent: Traffic
+  - action: utter_Traffic
+
+- story: Goodbye
+  steps:
+  - intent: Goodbye
+  - action: utter_Goodbye
+
+

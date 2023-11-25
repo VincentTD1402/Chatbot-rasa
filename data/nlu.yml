@@ -1,0 +1,191 @@
+version: "3.1"
+
+nlu:
+- intent: web_application_development
+  examples: |
+    - công ty bạn có tạo ứng dụng web không?
+    - công ty bạn có ứng dụng web không?
+
+- intent: ask_web_dev
+  examples: |
+    - ứng dụng web mà công ty của bạn viết trong như thế nào?
+    - web công ty bạn làm như thế nào?
+
+- intent: ask_web_exp
+  examples: |
+    - công ty bạn có bao nhiêu năm kinh nghiệm trong việc tạo ứng dụng web?
+    - công ty có kinh nghiệm gì trong việc tạo web?
+
+- intent: buy_web_dev
+  examples: |
+    - tôi muốn mua ứng dụng web
+    - chúng tôi muốn mua ứng dụng web tiết kiệm tiền
+
+- intent: ask_detail_web
+  examples: |
+    - tại sao chúng tôi chọn ứng dụng web từ công ty của bạn?
+    - tại sao tôi nên chọn ứng dụng web của công ty bạn?
+
+- intent: choosing_web
+  examples: |
+    - công ty của bạn thường sử dụng các công cụ và công nghệ nào để tạo ứng dụng web?
+    - công ty bạn thường dùng công cụ gì tạo web?
+
+- intent: mobile_application_development
+  examples: |
+    - công ty của bạn có tạo ra ứng dụng di động không?
+    - công ty bạn có ứng dụng di động không?
+- intent: ask_mobile_dev
+  examples: |
+      - tại sao chúng tôi chọn ứng dụng di động từ công ty của bạn?
+      - tại sao tôi nên chọn các bạn?
+- intent: ask_mobile_exp
+  examples: |
+    - kỹ năng và kinh nghiệm về UX và giao diện người dùng từ công ty của bạn là gì?
+    - công ty của bạn đã có bao nhiêu năm kinh nghiệm để tạo ra các ứng dụng di động?
+    - công ty của bạn đã có kinh nghiệm gì về việc xây dựng ứng dụng di động?
+- intent: ask_os_dev
+  examples: |
+    - công ty của bạn đã áp dụng loại hệ điều hành nào cho các ứng dụng di động?
+    - hệ điều hành nào ứng dụng di động công ty dùng?
+- intent: ask_detail_mobile
+  examples: |
+    - các ứng dụng điện thoại có kết hợp với AI không?
+    - tôi có thể tham gia dự án thực tế để phát triển chiến lược di động không?
+- intent: ask_long_mobile
+  examples: |
+    - dự án ứng dụng di động được hoàn thành trong khoảng bao lâu?
+    - dự án ứng dụng di động khoảng bao nhiêu tiền?
+- intent: Greeting
+  examples: |
+    - chào ad
+    - xin chào
+    - chào buổi sáng
+    - chào công ty Orient ạ
+    - rất vui được gặp bạn
+    - em chào ad ạ
+- intent: ask_greeting
+  examples: |
+    - tên bạn là gì?
+    - tên ad là gì?
+- intent: ask_health
+  examples: |
+    - ad có khỏe không
+    - Orient_Chatbot có khỏe không?
+- intent: reply_health
+  examples: |
+    - tôi khỏe
+    - mình khỏe
+- intent: ask_doing
+  examples: |
+    - đang làm gì đó?
+    - ad đang làm gì vậy?
+- intent: ask_ques
+  examples: |
+    - đây là đâu?
+    - đây là chỗ nào?
+- intent: ask_time
+  examples: |
+    - bây giờ là mấy giờ
+    - mấy giờ rồi?
+- intent: ask_restaurant
+  examples: |
+    - ad có đi nhậu không?
+    - ad uống được mấy chai?
+- intent: ask_with_who
+  examples: |
+    - đi nhậu với ai?
+    - thường nhậu ở nhà hàng nào?
+    - nhậu ở đâu?
+- intent: Product_Development
+  examples: |
+    - quy trình mà công ty bạn áp dụng trong quản lý công việc là gì?
+    - quy trình quản lý công việc của bạn là gì?
+- intent: ask_prod_1
+  examples: |
+    - tại sao công ty của bạn không chọn quy trình truyền thống?
+    - tại sao không chọn quy trọn quy trình truyền thống
+- intent: ask_prod
+  examples: |
+    - sản phẩm của bạn có nhấn mạnh chức năng sản phẩm không?
+    - sản phẩm của chúng tôi đòi hỏi phải liên tục thay đổi.Sản phẩm của bạn có thích ứng với sự thay đổi?
+    - chúng tôi muốn kiểm tra sản phẩm của chúng tôi liên tục, công ty bạn có đáp ứng không?
+    - ứng dụng của chúng tôi được thiết kế để chạy trong môi trường người dùng không kiểm soát, việc kiểm tra sẽ trở nên khó khăn. Công ty của bạn sẽ làm gì để đối phó với vấn đề đó?
+    - giá thành sản phẩm của bạn như thế nào?
+    - công ty của bạn có khả năng mở rộng nhóm sản phẩm của bạn không?
+    - công ty của bạn có phát triển sản phẩm mới?
+- intent: Artificial_Intelligence
+  examples: |
+    - công ty bạn có AI không?
+    - công ty bạn có làm về AI không? 
+    - công ty bạn có làm về Big data hoặc Data analytics không?
+- intent: ask_AI
+  examples: |
+    - AI có nguy hiểm đến con người?
+    - AI có nguy hiểm không?
+- intent: ask_ques_AI
+  examples: |
+    - liệu chúng ta có thể tạo ra một AI có mức độ ý thức của con người không?
+    - liệu AI có sử dụng trong thế giới của chúng ta ngày nay?
+    - AI hiện tại có bị cường điệu hóa không?
+    - lợi ích của Big data và Data analytics là gì?
+- intent: ask_rela_AI
+  examples: |
+    - mối quan hệ giữa AI và Machine Learning là gì?
+    - quan hệ giữa AI và Machine Learning là gì?
+    - nếu tôi tham gia vào công ty của bạn. Tôi được đào tạo về AI hay Machine Learning?
+    - tôi sẽ được đào tạo về AI hay Machine Learning nếu vào công ty?
+- intent: AI_app
+  examples: |
+    - bạn có thể liệt kê một số công nghệ, ngôn ngữ để làm việc với AI?
+    - công ty thường dùng ngôn ngữ gì để làm việc với AI
+- intent: Coffee
+  examples: |
+    - bạn có thích cà phê không?
+    - bạn thích uống loại cà phê gì?
+    - bạn thích cà phê không?
+- intent: ask_coffe
+  examples: |
+    - bạn thường uống cà phê ở quán nào?
+    - bạn thường uống cafe quán nào?
+    - cà phê bạn uống là bao nhiêu tiền?
+    - cà phê bạn uống bao nhiêu tiền?
+- intent: The_Internet_of_Things
+  examples: |
+    - công ty bạn có Internet Of Things không?
+    - công ty bạn có IoT không?
+    - internet Of Things là gì?
+    - IoT là gì?
+- intent: ask_IoT
+  examples: |
+    - IoT đang trong doanh nghiệp như thế nào?
+    - IoT trong doanh nghiệp như nào?
+    - IoT đã trở thành một phần rất có giá trị của bất kỳ doanh nghiệp?
+- intent: ask_IoT_2
+  examples: |
+    - IoT được ứng dụng vào cuộc sống như thế nào?
+    - IoT ứng dụng như nào?
+    - IoT có thực sự có ảnh hưởng đến cuộc sống?
+    - IoT ảnh hưởng đến cuộc sống như nào?
+- intent: Football
+  examples: |
+    - Bạn có thích bóng đá không?
+    - Bạn có hay đá banh không?
+    - Bạn hâm mộ đội nào?
+    - Việt Nam vô địch
+    - Bạn đá ở vị trí nào?
+    - Bạn hâm mộ cầu thử nào?
+- intent: Traffic
+  examples: |
+    - bạn thường uống cà phê ở quán nào?
+    - bạn thường uống cafe quán nào?
+    - cà phê bạn uống là bao nhiêu tiền?
+    - cà phê bạn uống bao nhiêu tiền?
+- intent:  Goodbye
+  examples: |
+    - Cảm ơn Ad
+    - Tạm biệt Ad nhé
+    - Cảm ơn vì các thông tin hữu ích này
+    - Thiệt là một buổi trò chuyện thú vị 
+    - Hẹn gặp lại Ad
+    - Tạm biệt, chúc ad một ngày tốt lành

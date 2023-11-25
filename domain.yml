@@ -1,0 +1,241 @@
+version: "3.1"
+
+
+intents:
+  - web_application_development
+  - ask_web_dev
+  - ask_web_exp
+  - buy_web_dev
+  - ask_detail_web
+  - choosing_web
+  - mobile_application_development
+  - ask_mobile_dev
+  - ask_mobile_exp
+  - ask_os_dev
+  - ask_detail_mobile
+  - ask_long_mobile
+  - Greeting
+  - ask_greeting
+  - ask_health
+  - reply_health
+  - ask_doing
+  - ask_ques
+  - ask_time
+  - ask_restaurant
+  - ask_with_who
+  - Product_Development
+  - ask_prod_1
+  - ask_prod
+  - Artificial_Intelligence
+  - ask_AI
+  - ask_ques_AI
+  - ask_rela_AI
+  - AI_app
+  - Coffee
+  - ask_coffe
+  - The_Internet_of_Things
+  - ask_IoT
+  - ask_IoT_2
+  - Football
+  - Traffic
+  - Goodbye
+
+responses:
+
+  utter_web_application_development:
+  - text: "Chúng tôi có"
+  - text: "Chúng tôi có đủ những gì bạn cần"
+
+  utter_ask_web_dev:
+  - text: "Chúng tôi đánh giá các giải pháp thiết thực, thiết kế đẹp và thông minh, code gọn gàng, kiến trúc tốt."
+  - text: "Chúng tôi đã thiết kế, xây dựng và hỗ trợ các ứng dụng web trong hơn một thập kỷ."
+
+  utter_buy_web_dev:
+  - text: "Sau nhiều năm kinh nghiệm, chúng tôi tại Orient Software đã xác định hai dịch vụ ứng dụng phát triển web quan trọng để giúp bạn tiết kiệm thời gian và tiền bạc: Năng lực kinh doanh và Năng lực công nghệ."
+
+  utter_ask_detail_web:
+  - text: "Chúng tôi tin rằng năng lực công nghệ phải luôn được cân bằng với năng lực kinh doanh. Chúng tôi có kinh nghiệm trong việc cung cấp các giải pháp phần mềm với logic kinh doanh cực kỳ phức tạp, tự nhiên duy trì sự đơn giản của quy trình công việc cấp cao cho người dùng cuối. Ngoài ra, trải nghiệm tên miền cao cấp của chúng tôi tại Orient Software cho phép chúng tôi cung cấp nhiều giải pháp miền trải rộng từ nhu cầu học tập điện tử và thương mại điện tử cho Phân phối nội dung thông tin và truyền thông kinh doanh"
+  - text: "Năng lực công nghệ tại Orient Software vượt xa những gì các công ty phát triển web thông thường cung cấp. Chúng tôi đã hoàn thành thành công việc thực hiện các dự án phức tạp và tham vọng nhất, đảm bảo hiệu suất phần mềm, khả năng mở rộng, khả năng bảo trì giải pháp cao và tích hợp hệ thống."
+
+  utter_ask_web_exp:
+  - text: "Chúng tôi đã thiết kế, xây dựng và hỗ trợ các ứng dụng web trong hơn một thập kỷ. Là một công ty phát triển ứng dụng web đáng tin cậy, Orient Software đã đạt được danh tiếng tốt và đáng tin cậy, vì vậy bạn có thể tin tưởng chúng tôi với các dự án lớn nhất và tham vọng nhất của bạn."
+
+  utter_choosing_web:
+  - text: "Chúng tôi thường sử dụng HTML5, CSS3, Angular, Vue.js, React, Node.js, ... để tạo ứng dụng web."
+
+  utter_mobile_application_development:
+  - text: "Vâng, chúng tôi có."
+  - text: "Vâng, chúng tôi có đủ điều kiện đáp ứng"
+
+  utter_ask_mobile_dev:
+  - text: "Chúng tôi xây dựng các giải pháp di động để nâng cao hiệu quả và hiệu quả kinh doanh của bạn. Với kinh nghiệm lâu năm phát triển các ứng dụng di động, chúng tôi có một nền tảng kiến thức vững chắc để hướng dẫn bạn trong quá trình phát triển ứng dụng di động."
+  - text: "Chúng tôi có một đội ngũ UX và UI được đào tạo chuyên sâu, chăm sóc tất cả các chi tiết nhỏ nhất trong thiết kế, và phát triển Giao diện và Cảm nhận cuối cùng để gắn kết cao hơn. Tất cả nhân viên tại Orient Software đều được đào tạo về UX và UI để đảm bảo rằng tất cả các ứng dụng di động trông tinh tế và tuyệt đẹp, để thu hút sự quan tâm của người trả lời ngay tại chỗ."
+
+  utter_ask_mobile_exp:
+  - text: "Hơn 2 tháng."
+  - text: "Với lịch sử lâu dài trong việc phát triển phần mềm, chúng tôi là đối tác mạnh mẽ trong việc giúp bạn xây dựng bất kỳ loại ứng dụng di động nào. Cho dù bạn muốn cải thiện năng suất của nhân viên, ra mắt ứng dụng tiêu dùng phổ biến mới hay tạo trò chơi di động tốt nhất trên thị trường, chúng tôi cung cấp các giải pháp cho nhu cầu phát triển ứng dụng của bạn sẽ giúp tăng tính di động của doanh nghiệp và kích thích tăng trưởng."
+
+  utter_ask_os_dev:
+  - text: "IOS, Android, v.v."
+
+  utter_ask_detail_mobile:
+  - text: "Có, nếu bạn muốn kết hợp chúng, chúng tôi có thể làm điều đó"
+  - text: "Có, chúng tôi hợp tác với bạn để phát triển chiến lược di động của bạn."
+
+  utter_ask_long_mobile:
+  - text: "Khoảng 4 tháng"
+  - text: "Khoảng 50000$"
+
+  utter_Greeting:
+  - text: "Chào mừng bạn đến với Orient Software, chúng tôi có thể giúp gì cho bạn?"
+  - text: "Chào buổi sáng!! Chúc bạn có một ngày tuyệt vời"
+  - text: "Chào bạn, rất vui được làm việc với bạn"
+  - text: "Chào bạn. Mình có thể giúp gì cho bạn?"
+  - text: "Chào bạn, rất vui khi được gặp bạn. Mình có thể giúp gì cho bạn?"
+
+  utter_ask_greeting:
+  - text: "Tên mình là Orient_Chatbot"
+
+  utter_ask_health:
+  - text: "Mình ổn, còn bạn thì sao?"
+  - text: "Mình khỏe, bạn thì sao?"
+
+  utter_reply_health:
+  - text: "Tuyệt, chúc mừng bạn."
+
+  utter_ask_doing:
+  - text: "Mình đang nói chuyện với bạn"
+
+  utter_ask_ques:
+  - text: "đây là một nơi tuyệt vời"
+
+  utter_ask_time:
+  - text: "Bây giờ là giờ để làm việc, cố lên bạn ơi, thành công sẻ đến với bạn"
+  - text: "Bây giờ là giờ để làm việc, cố lên bạn ơi, thành công sẻ đến với bạn"
+  - text: "Hôm nay là một ngày tuyệt vời, chúc bạn hạnh phúc"
+
+  utter_ask_restaurant:
+  - text: "có chứ, nhưng không nên nhậu nhiều. "
+  - text: "Mình uống 4-5 chai thôi. hihi, uống nhiều say..."
+
+  utter_ask_with_who:
+  - text: "Mình đi với bạn bè, đồng nghiệp "
+  - text: "Bé Mặn nhé"
+
+  utter_Product_Development:
+  - text: "Công ty chúng tôi áp dụng quy trình Agile Scrum trong quá trình làm việc"
+  - text: "Chúng tôi muốn áp dụng quy trình Agile Scrum. Bởi vì hiệu trưởng và bản kê khai của Agile Scrum phù hợp với việc phát triển phần mềm như: dễ thay đổi, phản hồi và phản hồi nhanh chóng cho khách hàng, khả năng làm việc nhóm giữa mỗi thành viên trong nhóm."
+
+  utter_ask_prod_1:
+  - text: "Chúng tôi áp dụng quy trình Agile Scrum để dễ dàng thích ứng với thay đổi"
+  - text: "Chúng tôi áp dụng Agile Scrum thích nghi với điều kiện của bạn là giao hàng thường xuyên"
+
+  utter_ask_prod:
+  - text: "Vâng Tại Orient Software, mọi tài nguyên phát triển phải đáp ứng các tiêu chuẩn chất lượng tối đa để tạo ra một sản phẩm mạnh mẽ và có thể mở rộng."
+  - text: "Chúng tôi quan tâm đến việc kiểm tra trở thành một phần quan trọng trong vòng đời phát triển sản phẩm. Quá trình phần mềm QAentent Phần mềm QA đặc biệt quan tâm đến kiểm tra cẩn thận và phát hiện lỗi."
+  - text: "Các công ty phải tiến hành nghiên cứu kỹ lưỡng về các công nghệ, nền tảng và tính năng phù hợp trước khi cam kết bất kỳ khoản chi phí tài chính lớn nào"
+  - text: " Phần mềm Orient có thể phục vụ như một nhóm mở rộng, hoạt động dựa trên sự phát triển tính năng kết hợp với nhóm nội bộ của bạn. Điều này cho phép công ty của bạn đưa một sản phẩm mạnh hơn và phong phú hơn để tiếp thị nhanh hơn và với chi phí thấp hơn"
+  - text: "Phát triển một sản phẩm mới khó khăn hơn nhiều so với bất kỳ sự phát triển ứng dụng tùy chỉnh nào, vì vậy nó đòi hỏi một tư duy độc đáo. Orient Software, các quy trình, nhà phát triển và định hướng sản phẩm đã được chứng minh cho phép chúng tôi luôn đáp ứng những thách thức phát triển của sản phẩm mới trong khi vẫn nằm trong ngân sách và khung thời gian dự kiến"
+
+  utter_Artificial_Intelligence:
+  - text: "Vâng, chúng tôi có."
+  - text: "Vâng, điều kiện của chúng tôi đáp ứng được bạn"
+
+  utter_ask_AI:
+  - text: "Thật quá đáng khi nói rằng AI đang điều khiển thế giới mà chúng ta đang sống. Thực tế, về mặt lý thuyết, cho phép cỗ máy tự học và tăng khả năng và kiến thức dựa trên kinh nghiệm và dữ liệu nhập."
+
+  utter_ask_ques_AI:
+  - text: "Chúng tôi có thể chạm đến nó, nhưng đó là một thách thức liên tục của thế giới công nghệ."
+  - text: "AI tồn tại trong rất nhiều thiết bị hoặc ứng dụng phổ biến trong cuộc sống hàng ngày của chúng ta. Sự phát triển của AI đã đẩy nhanh tiến độ của các quy trình, cho phép phần mềm dự đoán quá trình suy nghĩ của chúng tôi dựa trên các hành động và phản ứng trước đó"
+  - text: "Trước khi áp dụng vào doanh nghiệp của bạn, điều quan trọng là phải hiểu các công cụ và khái niệm về AI, để đảm bảo bạn biết cụ thể doanh nghiệp của bạn cần gì để thúc đẩy tăng trưởng."
+  - text: "Hiệu quả chi phí, cải thiện sản phẩm, Khám phá giá trị của khách hàng, Quảng bá hình ảnh thương hiệu, Kiểm soát hàng tồn kho"
+
+  utter_ask_rela_AI:
+  - text: "Điều này thường được gọi là trí tuệ trí tuệ. Một phần lớn của AI là về khả năng học tập này, hay Machine Learning."
+  - text: "Nếu bạn tham gia vào công ty của chúng tôi, bạn có thể được đào tạo về AI"
+
+  utter_AI_app:
+  - text: "Python, Tensorflow, Keras,..."
+
+  utter_Coffee:
+  - text: "Có, mình rất thích cà phê luôn ý!!!"
+  - text: "Mình thích uống cà phê rang xay, ít đá, có thêm ít sữa nữa "
+
+  utter_ask_coffe:
+  - text: "Mình thường đi Sao La uống đó bạn "
+  - text: "50k nè!!!"
+
+  utter_The_Internet_of_Things:
+  - text: "Vâng, chúng tôi có."
+  - text: "Đơn giản, IoT là một hệ sinh thái của các đối tượng vật lý được kết nối với một mạng chung, đó là Internet."
+
+  utter_ask_IoT:
+  - text: "IoT đã và đang cải thiện chất lượng cuộc sống chung của dân số. Điều này dẫn đến ngày càng nhiều công ty quan tâm đến việc phát triển và điều chỉnh IoT cho doanh nghiệp. Do hiệu quả của nó trong việc thúc đẩy các quá trình tự quyết định đối tượng, IoT có thể giảm bất kỳ chi phí kinh doanh nào và nâng cao hiệu quả, thu thập thông tin và phân tích thời gian thực để đưa ra quyết định tốt hơn và có lợi hơn"
+
+  utter_ask_IoT_2:
+  - text: "Vâng. IOT thực sự có ảnh hưởng trong cuộc sống hàng ngày"
+  - text: "Vâng. IoT trở thành một phần rất có giá trị của bất kỳ doanh nghiệp, tạo ra nhiều cơ hội phát triển và tối ưu hóa luồng thông tin."
+
+  utter_Football:
+  - text: "Có, mình rất thích bống đá"
+  - text: "mỗi tuần mình đá 2 trận đó bạn"
+  - text: "Mình hâm mộ Manchester United đó. hihi"
+  - text: "Đi bão nào bạn ơi. Việt Nam vô địchhhhhhhhh"
+  - text: "Mình đá cạnh Messi và Ronaldo nhé. hihi"
+  - text: "Mình hâm mộ Mạc Hồng Quân. hehe"
+
+  utter_Traffic:
+  - text: "Nếu bạn ra đường thì hãy cẩn thận nhé."
+  - text: "Có chứ, nhiều lắm bạn "
+  - text: " Ohhh, đó là điều không nên."
+  - text: "Đời phải lên xuống tý mới vui chứ bạn "
+  - text: "mình chưa bị nhé bạn "
+  - text: "3 màu đỏ, vàng và xanh, thế mà cũng hỏi."
+  - text: " Ohhh, đó là điều không nên, rất nguy hiểm "
+
+  utter_Goodbye:
+  - text: "Cảm ơn bạn đã lắng nghe, bạn có muốn biết thêm gì về nữa không?"
+
+actions:
+
+  - utter_web_application_development
+  - utter_ask_web_dev
+  - utter_ask_web_exp
+  - utter_buy_web_dev
+  - utter_ask_detail_web
+  - utter_choosing_web
+  - utter_mobile_application_development
+  - utter_ask_mobile_dev
+  - utter_ask_mobile_exp
+  - utter_ask_os_dev
+  - utter_ask_detail_mobile
+  - utter_ask_long_mobile
+  - utter_Greeting
+  - utter_ask_greeting
+  - utter_ask_health
+  - utter_reply_health
+  - utter_ask_doing
+  - utter_ask_ques
+  - utter_ask_time
+  - utter_ask_restaurant
+  - utter_ask_with_who
+  - utter_Product_Development
+  - utter_ask_prod_1
+  - utter_ask_prod
+  - utter_Artificial_Intelligence
+  - utter_ask_AI
+  - utter_ask_ques_AI
+  - utter_ask_rela_AI
+  - utter_AI_app
+  - utter_Coffee
+  - utter_ask_coffe
+  - utter_The_Internet_of_Things
+  - utter_ask_IoT
+  - utter_ask_IoT_2
+  - utter_Football
+  - utter_Traffic
+  - utter_Goodbye
+
+session_config:
+  session_expiration_time: 60.0
+  carry_over_slots_to_new_session: true
