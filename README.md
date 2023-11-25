@@ -53,7 +53,9 @@ to be extremely interactive learning from the chats.
   ![DEMO](asset/configdomain.png)
   
 - Step 4: Config the training through file config.yml
+- 
   ![DEMO](asset/config.png)
+  
 - Step 5: The import more for create a history for chatbot through file **data/stories.md**
 
   ![DEMO](asset/history.png)
